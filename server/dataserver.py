@@ -22,7 +22,6 @@ class ossdataserver:
 
 class mysqlserver:
     def __init__(self,host,port,user,passwd,db):
-        #pymysql.connect('rm-bp171b759ha99x5wfso.mysql.rds.aliyuncs.com',port=3306,user='root',passwd='HPGQEhutFBUCi8ZE8JYgWDwZVhAHXWJx',db='businessdata')
         self.host=host
         self.port=port 
         self.user=user
